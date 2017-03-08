@@ -1,0 +1,207 @@
+# Font and color control
+opt -P legal -d Helvetica/18 -t Helvetica/30 -n Helvetica/7 -s 0.0:1.0:0.0/1.0:1.0:0.8 
+
+# Holidays and Days of interest
+1/1*				New Year's Day
+#3rd Monday in Jan	Martin Luther King's Birthday
+year all			# Reset year to wildcard
+#last week in January		Wintereenmas
+1/25				Wintereenmas 
+1/25				Action, Platform, Adventure
+1/26				Wintereenmas
+1/26				First Person Shooters
+1/27				Wintereenmas
+1/27				Fighting  Games
+1/28				Wintereenmas
+1/28				Strategy Games
+1/29				Wintereenmas
+1/29				Racing Games
+1/30				Wintereenmas
+1/30				Role Playing Games
+1/31				Wintereenmas
+1/31				Sport Games
+
+2/2					Groundhog Day
+2/12				Lincoln's Birthday
+2/14				Valentine's Day
+2/22				Washington's Birthday
+
+3/17				St. Patick's Day
+3/20				Vernal Equinox
+Easter				Easter
+second Sun in Mar	Daylight Savings Time begins 
+
+Wed before last Sat in Apr	Administrative Assistants' Day
+last Fri in Apr		Arbor Day
+4/1					April Fool's Day
+4/22				Earth Day
+
+2nd Sunday in May		Mother's Day
+3rd Saturday in May		Armed Forces Day
+last Monday in May*		Memorial Day
+5/5						http://www.freecomicbookday.com/
+
+6/14					Flag Day
+3rd Sunday in June		Father's Day
+6/21					Summer Solstice
+183rd day of year		Mid-year (%l days left)
+
+7/4*					Independance Day
+
+8/6						WWW's %-1991Y%oY Birthday
+
+1st Monday in Sep*		Labor Day
+9/19					Talk Like a Pirate Day
+9/22					Autumnal Equinox
+Sun after 1st Mon in Sep	Grandparent's Day
+
+10/31					Halloween
+first Sun in Nov		Daylight Savings Time ends
+first Sun in Nov		Change smoke detector batteries
+
+11/11					Veteran's Day
+Tue after first Mon in Nov	Election Day (USA)
+4th Thu in Nov*			Thanksgiving
+4th Fri in Nov*			Shopping
+
+12/21					Winter Solstice
+Dec 25*					Christmas  # American
+
+#############################################################################
+# My Family Birthdays
+#############################################################################
+9/21				Tim's %-1970Y%oY Birthday
+1/7 				Stacy's %-1971Y%oY Birthday
+5/16				%-1992Y%oY Anniversary
+8/8					Lauren's %-1995Y%oY Birthday
+8/25				Courtney's %-1997Y%oY Birthday
+7/3					Gregory's %-2000Y%oY Birthday
+11/29				Ashton's %-2001Y%oY Birthday
+5/13				Anna's %-2004Y%oY Birthday
+4/5					Iain's %-2006Y%oY Birthday
+5/5					Sophia's %-2009Y%oY Birthday
+10/17				Landan's %-2011Y%oY Birthday
+7/10                Jared's %-2015Y%oY Birthday
+12/25				%+4Y%oY 
+
+#############################################################################
+# Stacy's Family
+#############################################################################
+6/5					Evis' %-1949Y%oY Birthday
+# ARN#  #A020-217-590
+##10/21				Grandpa T's %-1929Y%oY Birthday
+11/7				Greg Z's %-1948Y%oY Birthday
+12/6				Karen's %-1948Y%oY Birthday
+4/12				Greg and Evis' %-1976Y%oY Anniversary
+7/12				Kenda's %-1979Y%oY Birthday
+1/28				Ray's %-1969Y%oY Birthday
+4/24				Samantha's %-1987Y%oY Birthday
+5/25				Stephanie's %-1978Y%oY Birthday
+
+#############################################################################
+# Tim's Family 
+#############################################################################
+8/2					Opa's %-1939Y%oY Birthday
+9/18				Oma's %-1941Y%oY Birthday
+9/18				Robin/Kelley's %-1800Y%oY Anniversary
+6/9					Oma/Opa's %-1962Y%oY Anniversary
+9/1					Kelly's %-1960Y%oY Birthday
+3/13				Cindy's %-1963Y%oY Birthday
+8/18				Erwin's %-1964Y%oY Birthday
+2/10				Robin's %-1966Y%oY Birthday
+10/7				Cindy/Erwin's %-2000Y%oY Anniversary
+
+#############################################################################
+# Tim's Friends
+#############################################################################
+# Brian's Anniversary
+# Terry's Birthday is in June
+#
+5/17				Brian's %-1971Y%oY Birthday
+6/10				Todd and Jennifer's %-2006Y%oY Anniversary
+6/22				Tim Sailer's %-1963Y%oY Birthday
+8/30				Keith's %-2008Y%oY Birthday
+10/7				Todd's %-1969Y%oY Birthday
+10/9				Diana's %-1949Y%oY Birthday
+# 11/24				Bob Allen's Birthday
+
+
+#############################################################################
+# Tim's Co-workers
+#############################################################################
+11/3				Doug's %-1971Y%oY Birthday
+12/7				Ben Garza's %-1972Y%oY BD
+2/16				Jason Christy's %-1976Y%oY Birthday
+6/15				Bill Pitre's %-1950Y%oY DB
+7/16				Ken Niebayer's %-1976Y%oY BD
+7/16				Roy Hallquist's %-1970Y%oY BD
+3/29				Will Hutton's %-1973Y%oY BD
+4/4					Jared Carr's %-1982Y%oY BD
+1/24                Evan Felix's %-1974Y%oY BD
+
+#############################################################################
+# Family's Friends
+#############################################################################
+# 5/4					Janna Coffey BD
+6/10				Abby Bishop BD 
+
+# Password
+#first Tuesday in every 		Change your passwords
+
+#############################################################################
+# Notes:   Format: ^note/box month Note
+#############################################################################
+note/1 6 Meirre Greenwood Faire in June
+#note/1 Every Sunday 6:00 PM, BS
+
+
+#############################################################################
+### Expirations
+#############################################################################
+09/21/2018			Driver's license expires
+02/08/2019			ewitteveen.org expires NamesDirect (Domain.com)
+03/29/2021			timw077.com expires GoDaddy
+03/29/2021			TimWitteveen.com expires GoDaddy
+#11/07/2013			GMRS License expres: WQJN446  
+
+#############################################################################
+02/28   			timw.com expires  (WhoIsGuard)
+06/20   			timw.net expires  (Tim Winters)
+#03/07/2012			witteveen.com expires 
+#10/21/2012			witteveen.net expires
+#12/06/2012			witteveen.org expires
+
+#############################################################################
+# My work holidays 
+# The standard ones are already marked with *
+# These are the ones that move around becuse things like Christmas are not
+# always on the same week day.
+#############################################################################
+12/26/2017* 
+12/24/2018* 
+12/24/2019* 
+12/24/2020* 
+12/23/2021* 
+12/24/2021* 
+12/23/2022* 
+12/26/2022* 
+12/26/2023* 
+12/24/2024* 
+12/24/2025* 
+12/24/2026* 
+
+
+#############################################################################
+# One Time Events
+#############################################################################
+##define Cruise_Start 5/5/2007
+#110th day before Cruise_Start	110 days
+##define Spain_Start 06/16/2013
+##define Spain_End   07/10/2013 
+##define FallQuarterStart  09/23/2013 
+#07/20/2013 Lauren's Graduation
+#09/23/2013 Lauren starts CBC 
+# 
+#7/11/2013  Robin arrives 
+#7/15/2013  Robin departs 
+
