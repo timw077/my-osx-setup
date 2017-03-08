@@ -7,15 +7,19 @@
 
 # XCode:
 # http://railsapps.github.io/xcode-command-line-tools.html
-xcode-select -p
-xcode-select --install
+echo is xcode installed?
+  xcode-select -p
+echo install it
+  xcode-select --install
 
  Brew:
 echo BREW
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo install brew packages
+# I know I could glob these together, but if one breaks, the glob stops. 
    brew install bash-completion
+   brew install pcal
    brew install pre-commit
    brew install awscli
    brew install wget
@@ -31,7 +35,7 @@ echo install brew packages
    brew cask install chefdk
    # This (x2goclient) will probably fail:
    brew cask install x2goclient
-   # have but may not need tesseract
+   # I have but may not need tesseract
 
 # Chef Gems
 echo add the GEMs to embedded ruby
