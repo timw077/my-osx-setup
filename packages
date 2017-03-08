@@ -1,0 +1,40 @@
+# OS X
+# Theses are the commands you need to run to install the software pieces for
+# my environment.
+# This is meant to look like a script, but should be executed like one because
+# some of the installs require a reboot, or logoff / login to setup the
+# environment.
+
+# XCode:
+# http://railsapps.github.io/xcode-command-line-tools.html
+xcode-select -p
+xcode-select --install
+
+ Brew:
+echo BREW
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+echo install brew packages
+   brew install bash-completion
+   brew install pre-commit
+   brew install awscli
+   brew install wget
+   brew install python3
+   brew install doxygen
+   brew cask install atom
+   brew cask install caffeine
+   brew cask install virtualbox
+   brew cask install docker-toolbox
+   brew cask install vlc
+   brew cask install spotify
+   brew cask install chefdk
+   # This (x2goclient) will probably fail:
+   brew cask install x2goclient
+   # have but may not need tesseract
+
+# Chef Gems
+echo add the GEMs to embedded ruby
+  chef gem install knife-ec2
+  chef gem install kitchen-ec2
+  # probably do not need this:
+  # chef gem install chef-vault-testfixtures
