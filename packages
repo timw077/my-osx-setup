@@ -17,7 +17,7 @@ echo BREW
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo install brew packages
-# I know I could glob these together, but if one breaks, the glob stops. 
+# I know I could glob these together, but if one breaks, the glob stops.
    brew install bash-completion
    brew install pcal
    brew install pre-commit
@@ -43,3 +43,4 @@ echo add the GEMs to embedded ruby
   chef gem install kitchen-ec2
   # probably do not need this:
   # chef gem install chef-vault-testfixtures
+  # chef gem install fog-aws
