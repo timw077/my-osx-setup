@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CUPS.defaultprinter</key>
+	<string>PNNLPS01_PRT1829_PS</string>
+	<key>pdfview</key>
+	<false/>
+	<key>print.command</key>
+	<string>lpr</string>
+	<key>print.ps</key>
+	<false/>
+	<key>print.startcmd</key>
+	<false/>
+	<key>print.stdin</key>
+	<false/>
+	<key>showdialog</key>
+	<true/>
+	<key>view.command</key>
+	<string>xpdf</string>
+	<key>view.open</key>
+	<true/>
+</dict>
+</plist>

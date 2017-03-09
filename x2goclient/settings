@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LDAP.port</key>
+	<integer>389</integer>
+	<key>LDAP.port1</key>
+	<integer>0</integer>
+	<key>LDAP.port2</key>
+	<integer>0</integer>
+	<key>LDAP.server</key>
+	<string>localhost</string>
+	<key>LDAP.useldap</key>
+	<false/>
+	<key>clientport</key>
+	<integer>22</integer>
+	<key>showStatus</key>
+	<true/>
+	<key>trayicon.enabled</key>
+	<false/>
+	<key>trayicon.maxdiscon</key>
+	<false/>
+	<key>trayicon.mincon</key>
+	<false/>
+	<key>trayicon.mintotray</key>
+	<false/>
+	<key>trayicon.noclose</key>
+	<false/>
+	<key>xdarwin.directory</key>
+	<string>/Applications/Utilities/XQuartz.app</string>
+</dict>
+</plist>
