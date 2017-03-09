@@ -9,3 +9,7 @@ export HOMEBREW_NO_ANALYTICS=1
 
 PATH=${PATH}:~/bin
 eval "$(chef shell-init bash)"
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+. ~/.localbashrc

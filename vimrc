@@ -8,3 +8,5 @@ set showmatch
 syntax on
 set autoindent
 set bg=dark
+
+source ~/.localvimrc
