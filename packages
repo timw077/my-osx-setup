@@ -27,6 +27,7 @@ echo install brew packages
    brew install doxygen
    brew cask install atom
    brew cask install caffeine
+   brew cask install google-chrome
    brew cask install vagrant
    brew cask install virtualbox
    brew cask install docker-toolbox
