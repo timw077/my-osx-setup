@@ -1,7 +1,10 @@
 #!/bin/bash
 # openssl will use a config file called `openssl.cnf` in the *CWD*
-# You an use this to simplify certificate creation.
-# see /etc/pki/tls/openssl.cnf on RHEL 6
+#
+# This script users cert.conf that should look like this ONE LINE:
+# /emailAddress=user@example.com/C=US/ST=State/L=City/O=Company Name/OU=Department Name
+#
+# Otherwise the openssl command will prompt you for the information.
 
 Name=${1:-localhost.localdomain}
 
@@ -21,7 +24,14 @@ openssl rsa -in ${Name}.key -pubout -out ${Name}.public.key
 # Generate a certificate request
 echo "Generate a CSR"
 #openssl req -config ~/etc/openssl.conf -new -key ${Name}.key -out ${Name}.csr
-openssl req -new -key ${Name}.key -out ${Name}.csr
+if [[ -f cert.conf ]]
+then
+    SUBJ=$(grep -v "\#" cert.conf | head -1 )
+    # See note about about what this file should look like
+    openssl req -new -key ${Name}.key -out ${Name}.csr -subj "${SUBJ}/CN=${Name}"
+else
+    openssl req -new -key ${Name}.key -out ${Name}.csr
+fi
 
 # Self Sign CSR
 echo "Sign it, but feel free to delete this ${Name}.crt and get a real CA signed key."
