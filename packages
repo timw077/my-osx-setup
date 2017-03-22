@@ -5,6 +5,8 @@
 # some of the installs require a reboot, or logoff / login to setup the
 # environment.
 
+# Interesting stuff on https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/ 
+
 # XCode:
 # http://railsapps.github.io/xcode-command-line-tools.html
 echo is xcode installed?
@@ -15,6 +17,12 @@ echo install it
  Brew:
 echo BREW
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  echo "expect 'Your system is ready to brew'"
+  brew doctor 
+  echo "if you got 'Your system is ready to brew' then continue"
+  brew update
+  brew install git 
+  
 
 echo install brew packages
 # I know I could glob these together, but if one breaks, the glob stops.
