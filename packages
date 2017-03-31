@@ -28,6 +28,7 @@ echo install brew packages
 # I know I could glob these together, but if one breaks, the glob stops.
    brew install bash-completion
    brew install pcal
+   brew install python
    brew install pre-commit
    brew install awscli
    brew install wget
@@ -57,3 +58,5 @@ echo add the GEMs to embedded ruby
   # probably do not need this:
   # chef gem install chef-vault-testfixtures
   # chef gem install fog-aws
+
+echo "Configure AWS, SSH, and GIT
