@@ -5,7 +5,7 @@
 # some of the installs require a reboot, or logoff / login to setup the
 # environment.
 
-# Interesting stuff on https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/ 
+# Interesting stuff on https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
 
 # XCode:
 # http://railsapps.github.io/xcode-command-line-tools.html
@@ -18,11 +18,11 @@ echo install it
 echo BREW
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   echo "expect 'Your system is ready to brew'"
-  brew doctor 
+  brew doctor
   echo "if you got 'Your system is ready to brew' then continue"
   brew update
-  brew install git 
-  
+  brew install git
+
 
 echo install brew packages
 # I know I could glob these together, but if one breaks, the glob stops.
@@ -68,7 +68,9 @@ echo add the plugins to atom
   apm install linter-terraform-syntax
   apm install vim-mode-plus
 
-
+echo get random fun things
+   wget https://raw.github.com/gnachman/iTerm2/master/tests/imgcat  -O ~/bin/imgcat
+   chmod u+x ~/bin/imgcat
 
 
 
