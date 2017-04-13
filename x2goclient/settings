@@ -15,7 +15,7 @@
 	<key>clientport</key>
 	<integer>22</integer>
 	<key>showStatus</key>
-	<true/>
+	<false/>
 	<key>trayicon.enabled</key>
 	<false/>
 	<key>trayicon.maxdiscon</key>
