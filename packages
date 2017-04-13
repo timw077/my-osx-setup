@@ -59,4 +59,18 @@ echo add the GEMs to embedded ruby
   # chef gem install chef-vault-testfixtures
   # chef gem install fog-aws
 
+echo add the plugins to atom
+  apm install linter
+  apm install linter-ui-default
+  apm install linter-foodcritic
+  apm install linter-json-lint
+  apm install linter-rubocop
+  apm install linter-terraform-syntax
+  apm install vim-mode-plus
+
+
+
+
+
+
 echo "Configure AWS, SSH, and GIT
