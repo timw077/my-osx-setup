@@ -1,0 +1,10 @@
+clusters = nifi-legacy nifi-aws nifi-all kafka-prod zoos citsnifi sm-prod-kafka nifi-cluster 
+
+nifi-legacy = ci-nifi-ingest ci-nifi-e-01 ci-nifi-e-02 ci-nifi-e-03 ci-nifi-e-04
+nifi-aws = ci-nifi-aws civmnifi civmnifi02
+nifi-all = nifi-legacy nifi-aws nifi-new
+nifi-cluster = sm-nifi-1 sm-nifi-2 sm-nifi-3 sm-nifi-4
+kafka-prod = ci-kafka-03 ci-kafka-04 ci-kafka-05
+zoos = ci-zookeeper-01 ci-zookeeper-02 ci-zookeeper-03 
+citsnifi = citsnifi-ingest citsnifi-output citsnifi-e01 citsnifi-e02 
+sm-prod-kafka = sm-prod-kafka1 sm-prod-kafka2 sm-prod-kafka3

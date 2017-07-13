@@ -29,3 +29,4 @@ ln -sf ~/.my-osx-setup/gitconfig ~/.gitconfig
 ln -sf ~/.my-osx-setup/vimrc ~/.vimrc
 ln -sf ~/.my-osx-setup/x2goclient ~/.x2goclient
 ln -sf ~/.my-osx-setup/Xmodmap ~/.Xmodmap
+ln -sf ~/.my-osx-setup/csshrc ~/.csshrc
