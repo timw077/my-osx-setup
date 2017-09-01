@@ -105,13 +105,14 @@ Dec 25*					Christmas  # American
 #############################################################################
 8/2					Opa's %-1939Y%oY Birthday
 9/18				Oma's %-1941Y%oY Birthday
-9/18				Robin/Kelley's %-1800Y%oY Anniversary
+9/18				Robin/Kelley's %-2004Y%oY Anniversary
 6/9					Oma/Opa's %-1962Y%oY Anniversary
 9/1					Kelly's %-1960Y%oY Birthday
 3/13				Cindy's %-1963Y%oY Birthday
 8/18				Erwin's %-1964Y%oY Birthday
 2/10				Robin's %-1966Y%oY Birthday
 10/7				Cindy/Erwin's %-2000Y%oY Anniversary
+10/24               Motorcycle accident %-2013Y%oY Anniversary
 
 #############################################################################
 # Tim's Friends
@@ -200,14 +201,27 @@ note/1 6 Meirre Greenwood Faire in June
 #############################################################################
 ##define Cruise_Start 5/5/2007
 define Hawaii_Vacation 9/19/2017
+2th day before Hawaii_Vacation 2 days
+3th day before Hawaii_Vacation 3 days
+4th day before Hawaii_Vacation 4 days
+5th day before Hawaii_Vacation 5 days
+6th day before Hawaii_Vacation 6 days
+7th day before Hawaii_Vacation 7 days
+8th day before Hawaii_Vacation 8 days
+9th day before Hawaii_Vacation 9 days
 10th day before Hawaii_Vacation 10 days
+11th day before Hawaii_Vacation 11 days
+12th day before Hawaii_Vacation 12 days
+13th day before Hawaii_Vacation 13 days
+14th day before Hawaii_Vacation 14 days
+15th day before Hawaii_Vacation 15 days
+16th day before Hawaii_Vacation 16 days
+17th day before Hawaii_Vacation 17 days
+18th day before Hawaii_Vacation 18 days
+19th day before Hawaii_Vacation 19 days
 20th day before Hawaii_Vacation 20 days
 30th day before Hawaii_Vacation 30 days
 40th day before Hawaii_Vacation 40 days
-50th day before Hawaii_Vacation 50 days
-60th day before Hawaii_Vacation 60 days
-70th day before Hawaii_Vacation 70 days
-80th day before Hawaii_Vacation 80 days
 
 #110th day before Cruise_Start	110 days
 ##define Spain_Start 06/16/2013

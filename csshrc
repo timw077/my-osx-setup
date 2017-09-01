@@ -1,4 +1,4 @@
-clusters = nifi-legacy nifi-aws nifi-all kafka-prod zoos citsnifi sm-prod-kafka nifi-cluster 
+clusters = nifi-legacy nifi-aws nifi-all kafka-prod zoos citsnifi sm-prod-kafka nifi-cluster livinglabs ll4 ll5 ll6 ll7
 
 nifi-legacy = ci-nifi-ingest ci-nifi-e-01 ci-nifi-e-02 ci-nifi-e-03 ci-nifi-e-04
 nifi-aws = ci-nifi-aws civmnifi civmnifi02
@@ -8,3 +8,8 @@ kafka-prod = ci-kafka-03 ci-kafka-04 ci-kafka-05
 zoos = ci-zookeeper-01 ci-zookeeper-02 ci-zookeeper-03 
 citsnifi = citsnifi-ingest citsnifi-output citsnifi-e01 citsnifi-e02 
 sm-prod-kafka = sm-prod-kafka1 sm-prod-kafka2 sm-prod-kafka3
+livinglabs = ll40.ll.pnl.gov ll41.ll.pnl.gov ll42.ll.pnl.gov ll43.ll.pnl.gov ll44.ll.pnl.gov ll45.ll.pnl.gov ll46.ll.pnl.gov ll47.ll.pnl.gov ll48.ll.pnl.gov ll49.ll.pnl.gov ll50.ll.pnl.gov ll51.ll.pnl.gov ll52.ll.pnl.gov ll53.ll.pnl.gov ll54.ll.pnl.gov ll55.ll.pnl.gov ll56.ll.pnl.gov ll57.ll.pnl.gov ll58.ll.pnl.gov ll59.ll.pnl.gov ll60.ll.pnl.gov ll61.ll.pnl.gov ll62.ll.pnl.gov ll63.ll.pnl.gov ll64.ll.pnl.gov ll65.ll.pnl.gov ll66.ll.pnl.gov ll67.ll.pnl.gov ll68.ll.pnl.gov ll69.ll.pnl.gov ll70.ll.pnl.gov ll71.ll.pnl.gov ll72.ll.pnl.gov ll73.ll.pnl.gov ll74.ll.pnl.gov ll75.ll.pnl.gov ll76.ll.pnl.gov ll77.ll.pnl.gov ll78.ll.pnl.gov ll79.ll.pnl.gov ll80.ll.pnl.gov
+ll4 = ll40.ll.pnl.gov ll41.ll.pnl.gov ll42.ll.pnl.gov ll43.ll.pnl.gov ll44.ll.pnl.gov ll45.ll.pnl.gov ll46.ll.pnl.gov ll47.ll.pnl.gov ll48.ll.pnl.gov ll49.ll.pnl.gov
+ll5 = ll50.ll.pnl.gov ll51.ll.pnl.gov ll52.ll.pnl.gov ll53.ll.pnl.gov ll54.ll.pnl.gov ll55.ll.pnl.gov ll56.ll.pnl.gov ll57.ll.pnl.gov ll58.ll.pnl.gov ll59.ll.pnl.gov
+ll6 = ll60.ll.pnl.gov ll61.ll.pnl.gov ll62.ll.pnl.gov ll63.ll.pnl.gov ll64.ll.pnl.gov ll65.ll.pnl.gov ll66.ll.pnl.gov ll67.ll.pnl.gov ll68.ll.pnl.gov ll69.ll.pnl.gov
+ll7 = ll70.ll.pnl.gov ll71.ll.pnl.gov ll72.ll.pnl.gov ll73.ll.pnl.gov ll74.ll.pnl.gov ll75.ll.pnl.gov ll76.ll.pnl.gov ll77.ll.pnl.gov ll78.ll.pnl.gov ll79.ll.pnl.gov

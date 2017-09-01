@@ -30,6 +30,7 @@ echo install brew packages
    brew install bash-completion
    brew install csshx
    brew install doxygen
+   brew install gnu-tar
    brew install nmap
    brew install openssl
    brew install pcal
@@ -40,18 +41,18 @@ echo install brew packages
    brew install terraform
    brew install wget
    brew cask install xquartz
-   brew cask install citrix-receiver
    brew cask install atom
-   brew cask install caffeine
+   brew cask install calibre
+   brew cask install chefdk
+   brew cask install citrix-receiver
+   brew cask install docker-toolbox
    brew cask install google-chrome
    brew cask install iterm2
+   brew cask install slack
+   brew cask install spotify
    brew cask install vagrant
    brew cask install virtualbox
-   brew cask install slack
-   brew cask install docker-toolbox
    brew cask install vlc
-   brew cask install spotify
-   brew cask install chefdk
    # This (x2goclient) will probably fail:
    brew cask install x2goclient
    # I have but may not need tesseract
