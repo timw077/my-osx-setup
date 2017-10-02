@@ -9,19 +9,19 @@
 
 # XCode:
 # http://railsapps.github.io/xcode-command-line-tools.html
-echo is xcode installed?
-  xcode-select -p
-echo install it
-  xcode-select --install
+# echo is xcode installed?
+#   xcode-select -p
+# echo install it
+#   xcode-select --install
 
- Brew:
-echo BREW
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  echo "expect 'Your system is ready to brew'"
-  brew doctor
-  echo "if you got 'Your system is ready to brew' then continue"
-  brew update
-  brew install git
+ # Brew:
+# echo BREW
+#   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#   echo "expect 'Your system is ready to brew'"
+#   brew doctor
+#   echo "if you got 'Your system is ready to brew' then continue"
+#   brew update
+#   brew install git
 
 
 echo install brew packages
@@ -81,4 +81,4 @@ echo get random fun things
 
 
 
-echo "Configure AWS, SSH, and GIT
+echo "Configure AWS, SSH, and GIT"
